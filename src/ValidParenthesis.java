@@ -21,8 +21,7 @@ public class ValidParenthesis {
                 break;
             }
         }
-        if (counter == 0) {
-        } else {
+        if (counter != 0) {
             if (stack.peek() == 'a') {
                 System.out.println("balanced");
             }
